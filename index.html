@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> school website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,400;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navlinks" >
+                <i class="fa fa-window-close" onclick="hidemenu()"></i> <ul>
+                    <li> <a href="index.html">HOME</a></li>
+                    <li> <a href="about.html">About Us</a></li>
+                    <li> <a href="blog.html">BLOG</a></li>
+                    <li> <a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>PANCHODAYA SECONDARY SCHOOL</h1><br><br>
+        <p>Panchodaya Secondary School, Mugu (पन्चोदय माध्यमिक विद्यालय, मुगु) was established as a community based educational institution, <br>
+            which is situated in Nakharji, Mugu, Karnali Province, Nepal. <br><br>
+
+            <a href="contact.html" class="btn">Contact Us</a>
+        </div> 
+    </section>
+
+<!-------Course---------->
+<section class="course">
+    <h1>course</h1>
+    <p>Affiliated to the National Examination Board (NEB) and approved by the Ministry of Education.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3> secondary level education</h3>
+            <p> Panchodaya Secondary School, Mugu provides up to secondary level education with moderate
+                 fee structures and also provides a scholarship scheme for the deserving students.</p>
+
+        </div>
+        <div class="course-col">
+            <h3> Ten Plus Two in Education</h3>
+            <p> We offer the educational programs from ECD to grade 10 and Plus Two (Class 11 and 12)
+                 in the Education streams.</p>
+
+        </div>
+
+
+    </div>
+</section>
+
+
+
+<!--------schoool------->
+<section class="school">
+<h2>Our School </h2>
+<p>Affiliated to the National Examination Board (NEB) and approved by the Ministry of Education.</p>
+<div class="row">
+<div class="schoool-col">
+<img src="images/school.JPG" >
+<div class="layer">
+    <h3>School view</h3>
+
+</div>
+</div>
+<div class="schoool-col">
+    <img src="images/school view.jpg" >
+        <div class="layer">
+            <h3>School view</h3>
+        
+        </div>
+</div>
+
+<div class="schoool-col">
+    <img src="images/farewell programme.jpg" >
+    <div class="layer">
+        <h3>Farewell of Head Theacher</h3>
+        <h2>Krishna Kunwar</h2>
+    
+    </div>
+    </div>
+    <div class="schoool-col">
+    <img src="images/student and teacher.jpg" >
+        <div class="layer">
+            <h3>Teacher and Students</h3>
+        
+        
+</div>
+</section>
+
+<!--------Footer------->
+<section class="footer">
+<h3>Pandhodaya Secandary school, Nakharji-Mugu</h3>
+<p>We would like to provide well managed teaching and confortable environment for all of you</p>
+<div class="icons">
+<i class="fa fa-facebook"></i>
+<i class="fa fa-twitter"></i>
+<i class="fa fa-instagram"></i>
+</div>
+<p>Made with <i class="fa fa-instagram">SUMAN SHAHI</i></p>
+</section>
+
+
+</body>
+<!--------JavaScript for Toggle mernu-------->
+<script>
+    var navlinks=document.getElementById('navlinks')
+    function showmenu(){
+        navlinks.style.right  = "0";
+    } 
+    function hidemenu(){
+        navlinks.style.right  = "-200px";
+    }
+
+</script>
+<!--------JavaScript for Toggle mernu-------->
+
+</html>

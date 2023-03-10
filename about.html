@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> school website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,400;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navlinks" >
+                <i class="fa fa-window-close" onclick="hidemenu()"></i> <ul>
+                <li> <a href="index.html">HOME</a></li>
+                <li> <a href="about.html">About Us</a></li>
+                <li> <a href="blog.html">BLOG</a></li>
+                <li> <a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>पञ्चोदय उच्चमाध्यमिक विदयालय, नखर्जी-मुगु</h1>
+        
+    </section>
+    <!--------about us contant---------->
+    <section class="about-us">
+     <div class="row">
+        <div class="about-col">
+            <h1>About Us</h1>
+            <p>
+                This rural school strives to give every student the opportunity to grow as individuals and become 
+                leaders in their fields of study. We provide a safe and nurturing environment for all students to 
+                learn and explore their full potential. Our experienced and dedicated staff members will help each
+                student grow and develop skills that will prepare them for success in college and beyond. Our traditional academic curriculum meets the highest standards of education and allows students to purs
+                ue their own interests. We also offer a variety of extracurricular activities that allow students
+                to explore the arts, athletics, and leadership. Our school works in partnership with parents and
+                our local community to foster growth and a sense of belonging. Through our creative learning appro
+                ach, we create a positive learning environment that encourages critical thinking, problem solving 
+                and collaboration. We are proud of our small rural school and are honored to have the opportunity 
+                to educate and empower
+</p>
+<h3>School Management Committe</h3></div>
+<div class="about-col">
+    <img src="images/JB Shahi.jpg">
+</div>
+        </div>
+
+    </section>
+
+</body>
+
+<!--------Footer------->
+<section class="footer">
+<h3>Pandhodaya Secandary school, Nakharji-Mugu</h3>
+<p>We would like to provide well managed teaching and confortable environment for all of you</p>
+<div class="icons">
+<i class="fa fa-facebook"></i>
+<i class="fa fa-twitter"></i>
+<i class="fa fa-instagram"></i>
+</div>
+<p>Made with <i class="fa fa-instagram">SUMAN SHAHI</i></p>
+</section>
+<p>about us</p>
+<!--------JavaScript for Toggle mernu-------->
+<script>
+    var navlinks=document.getElementById('navlinks')
+    function showmenu(){
+        navlinks.style.right  = "0";
+    } 
+    function hidemenu(){
+        navlinks.style.right  = "-200px";
+    }
+
+</script>
+<!--------JavaScript for Toggle mernu-------->
+
+</html>
